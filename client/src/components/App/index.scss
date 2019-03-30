@@ -1,16 +1,50 @@
-.page{
-  &-landing{
+.page {
+  &-landing {}
 
-  }
-  &-header{}
+  &-header {}
 
-  .navbar{
+  #start {
+    color: #ffffff;
+  }
 
+  .navbar {
+    background-color: #040032;
+    box-shadow: 0px 0px 6px 0px #040032;
+
+    &-brand {
+      font-size: 28px;
+      font-weight: bold;
+    }
   }
-  .title{
-    // text-align: center;
+
+  .nav {
+    &-item {
+      font-size: 20px;
+      margin-left: 20px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
   }
-  .subtitle{
-    // text-align: center;
+
+  .wrapper {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .background-center {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
